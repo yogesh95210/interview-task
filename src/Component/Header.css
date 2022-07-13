@@ -1,0 +1,10 @@
+h1{
+    color: skyblue;
+}
+
+p.box{
+     border-style: solid;
+     border-radius: 10px;
+     height: 40px;
+     width: auto;
+}
