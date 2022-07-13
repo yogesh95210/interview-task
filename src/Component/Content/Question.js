@@ -149,9 +149,11 @@ const Question = ({formData,setFormData}) => {
 
 
 
-const Summary= ({formData,setFormData})=>{
+const Summary= ({formData})=>{
 
   return <div>
+    <h3>Result</h3>
+  
     <p>Have you been dignosed with this problem : {formData.result1}</p><br></br>
     <p>Did the problem start after a physical trauma : {formData.result2} </p><br></br>
     <p>Did the problem start after a mental trauma: {formData.result3}</p><br></br>
